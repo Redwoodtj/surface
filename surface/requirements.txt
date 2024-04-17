@@ -30,3 +30,4 @@ django-bulk-update-or-create==0.3.0  # for faster batch operations with update_o
 django-dynamicsettings==0.0.3
 
 -r scanners/requirements.txt
+sqlparse>=0.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
